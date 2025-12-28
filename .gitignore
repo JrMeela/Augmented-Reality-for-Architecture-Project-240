@@ -1,0 +1,42 @@
+# Compiled MEX binaries
+*.mex*
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Simulink and stateflow
+slprj/
+sltestdata/
+*.autosave
+
+# MATLAB autosave files
+*.asv
+
+# MATLAB temporary files
+*.mat
+*.fig
+*.mlx.autosave
+*.slxc
+
+# Build folders
+build/
+dist/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Dependencies
+./dependencies/
+./lib/
+
+# Logs
+*.log
